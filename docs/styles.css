@@ -1,6 +1,48 @@
 body {
-    background-image: url('/images/background.png');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #EDEFEC;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: #F0EAD6;
+    border-radius: 50px;
+    height: 10vw;
+    padding: 20px 10px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.button {
+    float: left;
+    border-color: #051e39;
+    background-color: #E0DAC6;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 2vw;
+    border-radius: 30px;
+    height: 100%;
+    width: calc(25% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #051e39;
+}
+
+.button:hover {
+    background-color: #104154;
+    color: #EDEFEC;
 }
